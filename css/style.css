@@ -1,0 +1,520 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body {
+      font-family:'Source Sans Pro';
+}
+.header{
+      height: 75px;
+      background-color: rgb(255, 255, 255);
+      position: relative;
+      border-bottom: solid 1px #000;
+}
+.header .left{
+      width: 50%;
+      position: absolute;
+      left: 0;
+      display: block;
+}
+.header .left .logo {
+      width: 15%;
+      position: absolute;
+      margin: 10px;
+}
+.header .left .logo img {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      left: 0;
+}
+.header .left .menuleft{
+      width: 85%;
+      position: absolute;
+      right: 0;
+      margin: 10px auto;
+      padding-left: 10px;
+}
+.menuleft ul li:hover{
+      color: #04AA6D;
+}
+.menuleft .menu a{
+      text-decoration: none;
+      color: #000;
+}
+.menuleft ul li{
+      display: inline-block;
+      list-style-type: none;
+      margin: 10px auto;
+      padding: 10px;  
+      font-size: 17px; 
+      font-weight: bold;
+}
+.header .right{
+      width: 38%;
+      position: absolute;
+      right: 0;
+      display: block;
+      font-weight: bold;
+}
+.header .right ul {
+      list-style-type: none;
+}
+.header .right ul li{
+      margin: 15px 10px;
+      font-size: 17px;
+      display: inline-block;
+}
+.header .right a{
+      text-decoration: none;
+      color: #000;
+}
+.header .right .websitehead{
+      background-color: #ffc0c7;
+      padding: 10px 30px;
+      border-radius: 30px;
+}
+.header .right .websitehead:hover{
+      background-color: #04AA6D;
+      color: #fff;
+      padding: 10px 30px;
+      border-radius: 30px;
+}
+.header .right .loginhead {
+      background-color: #04AA6D;
+      padding: 10px 30px;
+      border-radius: 30px;
+}
+.header .right .loginhead:hover {
+      background-color: #04AA6D;
+      color: #fff;
+      padding: 10px 30px;
+      border-radius: 30px;
+}
+.header .right .paidhead:hover {
+      color: #04AA6D;
+      text-decoration: underline 1px #000;
+}
+.section1{
+      position: relative;
+      width: 100%;
+      height: 500px;
+      background-color: #282A35;
+}
+.section1 .left{
+      width: 50%;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      display: block;
+      text-align: center;
+}
+.section1 .left h2{
+      font-size: 100px;
+      color: #fff;
+      padding-top: 60px;
+}
+.section1 .left p{
+      font-size: 20px;
+      margin-top:30px;
+      color: #fff;
+}
+.section1 .right{
+      position: absolute;
+      right: 0;
+      width: 50%;
+      height: 100%;
+}
+.section1 .left .btn {
+      margin: 5px 50px;
+      display: inline-block;
+      font-weight: bold;
+}
+.section1 .left .btn a {
+      text-decoration: none;
+}
+.section1 .left .btn .p1{
+      background-color: #04AA6D;
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.section1 .left .btn .p2{
+      background-color: #fff080;
+      color: #000;
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.section1 .left .btn .p3{
+      background-color: #fff;
+      color: #000;
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.section1 .right .box {
+      position: absolute;
+      left: 0;
+      width: 500px;
+      height: 400px;
+      background-color: #e7e9eb;
+      margin: 60px auto;
+      padding: 10px 20px;
+      border-radius: 10px;
+}
+.section1 .right .box .code{
+      width: 450px;
+      height: 250px;
+      background-color: #fff;
+      margin-top: 15px;
+      border-left: solid 4px #04AA6D;
+      padding: 15px;
+}
+.section1 .right .box .code span{
+      color: #d13144;
+}
+.section1 .right .box h3{
+      background-color: #04AA6D;
+      color: #fff;
+      margin-top: 20px;
+      display: inline-block;
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.section2{
+      position: relative;
+      width: 100%;
+      height: 500px;
+      background-color: #D9EEE1;
+}
+.section2 .left{
+      width: 50%;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      display: block;
+      text-align: center;
+}
+.section2 .left h2{
+      font-size: 100px;
+      color: rgb(0, 0, 0);
+      padding-top: 60px;
+}
+.section2 .left p{
+      font-size: 20px;
+      margin-top:30px;
+      color: rgb(0, 0, 0);
+}
+.section2 .right{
+      position: absolute;
+      right: 0;
+      width: 50%;
+      height: 100%;
+}
+.section2 .left .btn {
+      margin: 5px 50px;
+      display: inline-block;
+      font-weight: bold;
+}
+.section2 .left .btn a {
+      text-decoration: none;
+}
+.section2 .left .btn .p1{
+      background-color: #04AA6D;
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.section2 .left .btn .p2{
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.section2 .right .box {
+      position: absolute;
+      left: 0;
+      width: 500px;
+      height: 400px;
+      background-color: #c9ccce;
+      margin: 60px auto;
+      padding: 10px 20px;
+      border-radius: 10px;
+}
+.section2 .right .box .code{
+      width: 450px;
+      height: 250px;
+      background-color: #fff;
+      margin-top: 15px;
+      border-left: solid 4px #04AA6D;
+      padding: 15px;
+}
+.section2 .right .box .code span{
+      color: #d13144;
+}
+.section2 .right .box h3{
+      background-color: #04AA6D;
+      color: #fff;
+      margin-top: 20px;
+      display: inline-block;
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.section3{
+      position: relative;
+      width: 100%;
+      height: 500px;
+      background-color: #282A35;
+}
+.section3 .left{
+      width: 50%;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      display: block;
+      text-align: center;
+}
+.section3 .left h2{
+      font-size: 100px;
+      color: rgb(255, 255, 255);
+      padding-top: 60px;
+}
+.section3 .left p{
+      font-size: 20px;
+      margin-top:30px;
+      color: rgb(255, 255, 255);
+}
+.section3 .right{
+      position: absolute;
+      right: 0;
+      width: 50%;
+      height: 100%;
+}
+.section3 .left .btn {
+      margin: 5px 50px;
+      display: inline-block;
+      font-weight: bold;
+}
+.section3 .left .btn a {
+      text-decoration: none;
+}
+.section3 .left .btn .p1{
+      background-color: #04AA6D;
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.section3 .left .btn .p2{
+      background-color: #fff080;
+      color: rgb(0, 0, 0);
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.section3 .right .box {
+      position: absolute;
+      left: 0;
+      width: 500px;
+      height: 400px;
+      background-color: #c9ccce;
+      margin: 60px auto;
+      padding: 10px 20px;
+      border-radius: 10px;
+}
+.section3 .right .box .code{
+      width: 450px;
+      height: 250px;
+      background-color: #fff;
+      margin-top: 15px;
+      border-left: solid 4px #04AA6D;
+      padding: 15px;
+}
+.section3 .right .box .code span{
+      color: #d13144;
+}
+.section3 .right .box h3{
+      background-color: #04AA6D;
+      color: #fff;
+      margin-top: 20px;
+      display: inline-block;
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.section4{
+      position: relative;
+      width: 100%;
+      height: 430px;
+      background-color: #FFF4A3 ;
+}
+.section4 .left{
+      width: 50%;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      display: block;
+      text-align: center;
+}
+.section4 .left h2{
+      font-size: 100px;
+      color: rgb(0, 0, 0);
+      padding-top: 60px;
+}
+.section4 .left p{
+      font-size: 20px;
+      margin-top:30px;
+      color: rgb(0, 0, 0);
+}
+.section4 .right{
+      position: absolute;
+      right: 0;
+      width: 50%;
+      height: 100%;
+}
+.section4 .left .btn {
+      margin: 5px 50px;
+      display: inline-block;
+      font-weight: bold;
+}
+.section4 .left .btn a {
+      text-decoration: none;
+}
+.section4 .left .btn .p1{
+      background-color: #04AA6D;
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.section4 .left .btn .p2{
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.section4 .right .box {
+      position: absolute;
+      left: 0;
+      width: 500px;
+      height: 290px;
+      background-color: #e7e9eb;
+      margin: 90px auto;
+      padding: 10px 20px;
+      border-radius: 10px;
+}
+.section4 .right .box .code{
+      width: 450px;
+      height: 150px;
+      background-color: #fff;
+      margin-top: 15px;
+      border-left: solid 4px #04AA6D;
+      padding: 15px;
+}
+.section4 .right .box .code span{
+      color: #d13144;
+}
+.section4 .right .box h3{
+      background-color: #04AA6D;
+      color: #fff;
+      margin-top: 20px;
+      display: inline-block;
+      padding: 10px 40px;
+      border-radius: 20px;
+}
+.footer{
+      position: relative;
+      width: 100%;
+      height: 530px;
+      background-color: #282A35;
+}
+.footer .left {
+      position: absolute;
+      left: 0;
+      width: 50%;
+      height: 100px;
+      padding: 50px 30px;
+}
+.footer .left span{
+      margin: 10px;
+      background-color: #c9ccce;
+      padding: 10px;
+      border-radius: 5px;
+}
+.footer .right {
+      width: 15%;
+      position: absolute;
+      right: 0;
+}
+.footer .right P{
+      display: inline-block;
+      color: #000;
+      margin:45px 10px;
+      background-color: #c9ccce;
+      padding: 3px;
+}
+.footer .left a{
+      text-decoration: none;
+      color: #000;
+}
+.footer .social{
+      position: absolute;
+}
+.footer .social i{
+      color: rgb(247, 247, 247);
+      font-size: 40px;
+      margin: 5px;
+}
+.footer .social i:hover{
+      color: #9de6cb;
+}
+.footer .below {
+      position: absolute;
+      bottom: 240px;
+}
+.footer .below p {
+      text-align: center;
+      padding: 5px 90px;
+      font-size: 15px;
+      color: #fff;
+      line-height: 30px;
+}
+.footer .below span{
+      padding: 3px;
+      background-color: #f08e99;
+}
+.footer .below a{
+      text-decoration: none;
+      color:#fff;
+      font-size: 13px;
+}
+.footer .below a:hover {
+      color: #04AA6D;
+}
+.footer .like{
+      width: 100%;
+      position: absolute;
+      bottom: 160px;
+      display: inline-block;
+      text-align: center;
+}
+.footer .like i{
+      font-size: 40px;
+      color: rgb(206, 206, 206);    
+}
+.footer .like i:hover{
+      color: #4b967a;
+}
+.footer .shopbtn {
+      width: 400px;
+      position: absolute;
+      bottom: 90px;
+      left: 35%;
+}
+.footer .shopbtn p{
+      margin: -30px;
+      font-size: 20px;
+      text-align: center;
+      background-color: #04AA6D;
+      color: #FFF;
+      padding: 20px;
+      border-radius: 30px;
+}
+.footer .shopbtn a{
+      text-decoration:none
+}
+.footer .shopbtn p:hover {
+      background-color: #0e7750;
+}
